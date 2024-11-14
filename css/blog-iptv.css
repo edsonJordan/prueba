@@ -1,0 +1,69 @@
+section.banner--blog .banner__bg {
+	position: relative;
+	background: inherit !important;
+}
+
+.bannerblog__fondo_img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    object-fit: cover
+}
+
+section.banner--blog .banner__content {
+    max-width: 1000px;
+}
+
+.heading__principal {
+	font-size: 48px;
+}
+
+.heading__principal,
+.heading__principal * {
+    font-family: Telefonica;
+    display: inline
+}
+
+.heading__principal .heading__resalt,
+.heading__principal h1 {
+    font-weight: 700;
+    color: #019df4;
+    font-size: 48px
+}
+
+@media(max-width:599px) {
+	.heading__principal {
+        font-size: 32px;
+        text-align: center
+    }
+
+    .heading__principal * {
+        font-size: 32px !important;
+        text-align: center
+    }
+
+    .banner__content--wrap {
+        text-align: center
+    }
+}
+
+@media(max-width: 799px) {
+    .heading__principal {
+        font-size: 36px
+    }
+}
+
+.card--information__content.mb-5 iframe {
+    max-width: 100%
+}
+
+.card--information__content ul {
+    padding-left: 15px;
+    list-style: initial
+}
+
+.card__row--display>p {
+    font-size: 20px
+}
