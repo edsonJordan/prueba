@@ -14,7 +14,7 @@ a.mb--btn__default {
 }
 
 section.banner--blog .banner__bg {
-    background-image: url("/documents/37905/18289881/banner__content-bg.svg");
+    background-image: url("https://www.movistar.com.pe/documents/37905/18289881/banner__content-bg.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1129,6 +1129,8 @@ p.modal--description {
     display: none!important
 }
 
-*{
-    outline: 1px solid red;
+
+section .banner__content img{
+    max-width: 100%;
+
 }
