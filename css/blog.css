@@ -1,0 +1,1133 @@
+.contentList,.content__img-wth-btn,.right__ofert,section.banner--blog {
+    position: relative
+}
+
+a.mb--btn__default {
+    font-weight: 700;
+    background-color: #e63780;
+    font-size: 12px;
+    padding: 6px 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 32px;
+    color: #fff
+}
+
+section.banner--blog .banner__bg {
+    background-image: url("https://www.movistar.com.pe/documents/37905/18289881/banner__content-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    color: #fff
+}
+
+section.banner--blog .banner__content {
+    max-width: 850px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    width: 100%;
+    margin: 0 auto
+}
+
+section.banner--blog .banner__content .banner__icon-principal {
+    width: 100%;
+    height: auto
+}
+
+section.banner--blog .banner__content .banner__content-text {
+    font-size: 30px
+}
+
+@media(max-width: 600px) {
+    section.banner--blog .banner__bg {
+        height:auto
+    }
+
+    section.banner--blog .banner__content {
+        padding: 2rem
+    }
+
+    section.banner--blog .banner__content .banner__icon-principal {
+        width: 100%;
+        height: auto;
+        margin-top: 1rem
+    }
+
+    section.banner--blog .banner__content .banner__content-text {
+        font-size: 22px;
+        text-align: center
+    }
+}
+
+section.banner--blog .banner__content .banner__content--description {
+    font-size: 14px
+}
+
+.heading__principal {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400
+}
+
+.heading__principal .heading__resalt {
+    font-weight: 700;
+    color: #019df4
+}
+
+.breadcrumb--container {
+    background: rgba(0,0,0,0);
+    padding: 0 12px 0 0
+}
+
+.breadcrumb--container .breadcrumb__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    white-space: nowrap
+}
+
+@media(max-width: 600px) {
+    section.banner--blog .banner__content .banner__content--description {
+        font-size:12px;
+        text-align: center
+    }
+
+    .heading__principal {
+        font-size: 26px;
+        text-align: center
+    }
+
+    .breadcrumb--container {
+        padding: 0
+    }
+
+    .breadcrumb--container .breadcrumb__list {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        overflow-x: auto;
+        justify-content: center
+    }
+
+    .breadcrumb--container .breadcrumb__list::-webkit-scrollbar {
+        display: none
+    }
+}
+
+.breadcrumb--container .breadcrumb__list .breadcrumb__list--item {
+    color: #fff;
+    display: block;
+    font-size: 12px
+}
+
+.breadcrumb--container .breadcrumb__list .breadcrumb__list--item+.breadcrumb--container .breadcrumb__list .breadcrumb__list--item {
+    position: relative;
+    left: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.breadcrumb--container .breadcrumb__list .breadcrumb__list--item+.breadcrumb--container .breadcrumb__list .breadcrumb__list--item::before {
+    content: ">";
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    width: 1rem;
+    font-weight: 400
+}
+
+.breadcrumb--container .breadcrumb__list .breadcrumb__list--item:last-child {
+    font-weight: 700
+}
+
+section.information {
+    background-color: #f6f6f6;
+    color: #50535a
+}
+
+section.information .information__content {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto
+}
+
+.element__show {
+    display: block
+}
+
+#portlet_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet,.element__hide {
+    display: none
+}
+
+.content__img-wth-btn .float__cobertura {
+    position: absolute;
+    max-width: 135px;
+    width: 100%;
+    right: 0;
+    bottom: 20px;
+    font-size: 16px;
+    color: #fff
+}
+
+.content__img-wth-btn .btn__mv-blue {
+    font-weight: 700;
+    background-color: #0b2739;
+    text-align: center;
+    font-size: 10px;
+    gap: 8px;
+    min-width: 100px;
+    padding: 8px 12px;
+    border-radius: 32px;
+    border: 0;
+    color: #fff;
+    display: inline-block
+}
+
+.contentList {
+    transition: 1s
+}
+
+.contentList .contentList__heading {
+    font-size: 20px;
+    font-weight: 700
+}
+
+.contentList .content__dropdown .btn__close__list {
+    position: absolute;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    display: none;
+    right: 10px;
+    top: 10px
+}
+
+.contentList .content__dropdown .btn__close__list svg {
+    width: 100%;
+    height: 100%
+}
+
+.contentList .contentList__list {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.contentList .contentList__list .contentList__item {
+    font-size: 14px;
+    display: block;
+    margin-bottom: .6rem
+}
+
+.contentList .contentList__list .contentList__item.active .contentList__item--link,.contentList .contentList__list .contentList__item:hover .contentList__item--link {
+    color: #019df4 !important;
+    font-weight: 700
+}
+
+.contentList .contentList__list .contentList__item.active .contentList__item--link .contentList__item--number,.contentList .contentList__list .contentList__item:hover .contentList__item--link .contentList__item--number {
+    background-color: #019df4 !important;
+    color: #fff !important;
+    font-weight: 700
+}
+
+.contentList .contentList__list .contentList__item .contentList__item--link {
+    cursor: pointer;
+    color: #50535a;
+    display: flex;
+    align-items: center;
+    text-decoration: none
+}
+
+.contentList .contentList__list .contentList__item .contentList__item--link .contentList__item--number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #d3d4d3;
+    padding: 2px 16px;
+    border-radius: 50%;
+    margin-right: .5rem;
+    font-size: 12px;
+    position: relative
+}
+
+.contentList.listFixed {
+    position: sticky;
+    transition: 1s;
+    top: 85px;
+    box-sizing: border-box;
+    width: 100%
+}
+
+@media(max-width: 799px) {
+    .contentList.listFixed {
+        width:100%
+    }
+
+    .contentList .content__dropdown .btn__close__list {
+        display: inline-block
+    }
+}
+
+.contentList .list__cta-drop {
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #fff;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 36px;
+    color: #fff !important
+}
+
+.contentList .list__cta-drop.active,.contentList .list__cta-drop:hover {
+    background-color: #fff;
+    color: #0b2739 !important
+}
+
+@media(max-width: 799px) {
+    .heading__principal {
+        font-size:26px
+    }
+
+    .contentList .contentList__heading,.contentList .content__dropdown {
+        display: none
+    }
+
+    .contentList .contentList__list {
+        padding-bottom: 20px;
+        max-height: 250px;
+        overflow-y: auto;
+        padding-right: 15px;
+        box-sizing: border-box
+    }
+
+    .contentList .contentList__list::-webkit-scrollbar {
+        width: 5px;
+        background-color: #3c5261
+    }
+
+    .contentList {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        top: inherit;
+        z-index: 9;
+        background-color: #0b2739;
+        left: 0;
+        padding: 1.8rem 2.5rem
+    }
+
+    .contentList .contentList__item--link {
+        color: #fff !important
+    }
+
+    .contentList .contentList__item--link .contentList__item--number {
+        background-color: #3c5261 !important
+    }
+
+    .contentList .list__cta-drop {
+        display: block
+    }
+}
+
+.card--information {
+    border: 0;
+    border-radius: 20px;
+    padding: 2rem;
+    font-size: 16px
+}
+
+.card--information p {
+    line-height: 26px
+}
+
+.card--information img.banner__content-blog {
+    width: 100%;
+    height: auto;
+    border-radius: 20px
+}
+
+.card--information .heading__section {
+    font-size: 26px;
+    font-weight: 700
+}
+
+@media(max-width: 799px) {
+    .breadcrumb--container .breadcrumb__list .breadcrumb__list--item {
+        font-size:10px
+    }
+
+    .element__sm-show {
+        display: block
+    }
+
+    .element__sm-hide {
+        display: none
+    }
+
+    .content__img-wth-btn .float__cobertura {
+        font-size: 12px;
+        max-width: 150px;
+        bottom: 10px
+    }
+
+    .contentList .contentList__list .contentList__item .contentList__item--link .contentList__item--number {
+        font-size: 10px;
+        width: 20px;
+        height: 20px;
+        padding: 2px 10px
+    }
+
+    .contentList .contentList__list .contentList__item {
+        font-size: 12px
+    }
+
+    .contentList.listFixed {
+        position: fixed;
+        top: inherit
+    }
+
+    .card--information {
+        padding: 2rem 1rem
+    }
+
+    .card--information .heading__section {
+        font-size: 24px
+    }
+}
+
+.card--information .heading__subsection {
+    font-size: 20px;
+    font-weight: 700
+}
+
+.card--information .heading__foot,.card--information .heading__little {
+    font-size: 18px;
+    font-weight: 700
+}
+
+.card--information .card__row--display {
+    padding-top: 2.5rem
+}
+
+.card--information .card__row--display:first-child {
+    padding-top: 0
+}
+
+.card--information .banner__mobile-prom-fibra {
+    display: none;
+    position: relative
+}
+
+.card--information .card__row--display .card__pict--banner,.card--information .card__row--display .card__pict--banner .media__picture--banner {
+    width: 100%;
+    height: auto
+}
+
+.card--information .banner__mobile-prom-fibra a.btn__fibra-mobile {
+    position: absolute;
+    right: 18%;
+    bottom: 10px;
+    color: #fff
+}
+
+.card--information .banner__mobile-prom-fibra .viewTerms {
+    position: absolute;
+    left: 16%;
+    bottom: 8px;
+    font-size: 10px;
+    color: #fff
+}
+
+@media(max-width: 400px) {
+    .card--information .banner__mobile-prom-fibra .viewTerms {
+        left:10%
+    }
+}
+
+.card--information a.img--link {
+    display: block;
+    cursor: pointer
+}
+
+.card--information .card--information__foot {
+    border-top: 1px solid #b6b7b7
+}
+
+.card--information .card--information__foot .card--information__social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end
+}
+
+.card--information .card--information__foot .card--information__social a.social__link-img {
+    margin-right: 1.5rem;
+    display: inline-block
+}
+
+.card--information .card--information__foot .card--information__social a.social__link-img:last-child {
+    margin-right: 0
+}
+
+@media(max-width: 600px) {
+    .card--information .banner__mobile-prom-fibra {
+        display:block;
+        height: auto
+    }
+
+    .card--information .card__row--display {
+        padding-top: 1.5rem
+    }
+
+    .card--information .card--information__foot .card--information__social a.social__link-img {
+        margin: .15rem .8rem
+    }
+
+    .card--information .card--information__foot .card--information__social {
+        justify-content: center;
+        margin-top: 1.5rem
+    }
+}
+
+.right__ofert .right__ofert--float {
+    position: absolute;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 5px
+}
+
+.right__ofert .right__ofert--float .ofert__box--transparent {
+    font-size: 8px;
+    padding: 6px 4px;
+    color: #0b2739;
+    text-align: center;
+    background-color: #fff;
+    opacity: .7;
+    border-radius: 8px
+}
+
+.right__ofert .right__ofert--float .ofert__box--transparent span.resalt__text {
+    font-size: 10px
+}
+
+.right__ofert .right__ofert--float a.cta__text-link {
+    color: #fff;
+    font-size: 12px
+}
+
+@media(max-width: 990px) {
+    .right__ofert {
+        display:none
+    }
+}
+
+.overlay__modal {
+    position: fixed;
+    background: rgba(0,0,0,.8);
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    display: none
+}
+
+.btn__blue-modal,a.mb--btn__default.btn__blue {
+    background-color: #019df4
+}
+
+.overlay__modal .modal__terms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: Century Gothic,monospace
+}
+
+.overlay__modal .modal__terms .card__modal-tems {
+    max-width: 480px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #fff;
+    position: relative;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    color: #777;
+    font-size: 14px
+}
+
+.btn__blue-modal {
+    color: #fff;
+    display: inline-block;
+    width: 168px !important;
+    border-radius: 50px;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    margin: 0 auto;
+    padding: 10px !important;
+    margin-top: 0 !important;
+    border: 0
+}
+
+.close__modal-terms {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: #00a9e0;
+    font-size: 20px;
+    display: inline-block;
+    cursor: pointer
+}
+
+.right__ofert .media__banner-lat {
+    width: 100%;
+    height: auto;
+    border-radius: 12px
+}
+
+.right__ofert .right__ofert--float a.cta__text-link.txt__blue {
+    color: #019df4
+}
+
+.col-menu-blog {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+@media(min-width: 360px) {
+    .col-menu-blog {
+        flex:0 0 100%;
+        max-width: 100%
+    }
+}
+
+@media(min-width: 800px) {
+    .col-menu-blog {
+        flex:0 0 30%;
+        max-width: 300%
+    }
+}
+
+@media(min-width: 1280px) {
+    .col-menu-blog {
+        flex:0 0 25%;
+        max-width: 25%
+    }
+}
+
+.col-content-blog {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+@media(min-width: 360px) {
+    .col-content-blog {
+        flex:0 0 100%;
+        max-width: 100%
+    }
+}
+
+@media(min-width: 800px) {
+    .col-content-blog {
+        flex:0 0 70%;
+        max-width: 70%
+    }
+}
+
+@media(min-width: 1280px) {
+    .col-content-blog {
+        flex:0 0 50%;
+        max-width: 50%
+    }
+}
+
+.col-promo-blog {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: none
+}
+
+@media(min-width: 360px) {
+    .col-promo-blog {
+        flex:0 0 100%;
+        max-width: 100%
+    }
+}
+
+@media(min-width: 800px) {
+    .col-promo-blog {
+        flex:0 0 100%;
+        max-width: 100%
+    }
+}
+
+@media(min-width: 1280px) {
+    .col-promo-blog {
+        flex:0 0 25%;
+        max-width: 25%;
+        display: block
+    }
+}
+
+.card--information .card__row--display .card__pict--banner.banner-movil__prom_mobile {
+    max-width: 420px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem
+}
+
+@media(min-width: 1280px) {
+    .card--information .card__row--display .card__pict--banner.banner-movil__prom_mobile {
+        display:none
+    }
+}
+
+/*# sourceMappingURL=blog.main.min.css.map */
+/* clases formulario SAS 360*/
+.HVS-form-card__formulario {
+    position: relative;
+    margin-top: 12px
+}
+
+.HVS-form-card__bkgpic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 0
+}
+
+.HVS-form-card__bkgimg {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    object-position: top center
+}
+
+.HVS-form-card {
+    margin: 48px auto 0;
+    width: 94%;
+    min-width: 280px;
+    max-width: 600px;
+    text-align: center;
+    color: #fff;
+    min-height: 240px;
+    border-radius: 8px;
+    padding: 20px 16px;
+    position: relative;
+    overflow: hidden
+}
+
+.HVS-form-card__ttl {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: normal;
+    max-width: 440px;
+    margin: 0 auto;
+    position: relative
+}
+
+.HVS-form-card__subttl {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 370px;
+    margin: 8px auto 0;
+    position: relative
+}
+
+@media (min-width: 600px) {
+    .HVS-form-card {
+        padding:29px 24px
+    }
+}
+
+.HVS-form-card__input {
+    position: relative;
+    margin-top: 8px;
+    display: inline-block
+}
+
+.HVS-form-card__input svg {
+    position: absolute;
+    top: 10px;
+    left: 8px
+}
+
+.HVS-form-card input#customer_id~svg {
+    top: 6px
+}
+
+.HVS-form-card input#ci360_form_email,.HVS-form-card input#customer_id {
+    padding: 8px 8px 8px 40px;
+    border: 1px solid #ededed;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 20px
+}
+
+.HVS-form-card label {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    right: 0;
+    color: red;
+    display: none;
+    font-size: 12px;
+    margin-bottom: 0
+}
+
+.HVS-form-card button#btnDescargable {
+    display: block;
+    margin: 0 auto;
+    width: 132px;
+    height: 40px;
+    padding: 8px 32px;
+    border-radius: 60px;
+    background: #0b2739;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px
+}
+
+@media(max-width: 600px) {
+    .HVS-form-card input#ci360_form_email,.HVS-form-card input#customer_id {
+        max-width:144px
+    }
+
+    .HVS-form-card__formulario {
+        margin-top: 4px
+    }
+}
+
+.section-form-modal {
+    position: relative
+}
+
+.section-form-modal__texto {
+    padding: 20px
+}
+
+.modal-content .section-planeta .planeta,.section-form-modal__img {
+    width: auto;
+    height: auto
+}
+
+.section-form-modal__img--fondo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1
+}
+
+.custom-modal,.modal-banner.custom-overlay {
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+.section-form-modal__texto--uno {
+    font-size: 34px;
+    line-height: 36px;
+    margin-top: 15px
+}
+
+.modal-banner.custom-overlay {
+    transition: opacity .3s;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 70%);
+    z-index: 98
+}
+
+.custom-modal.is-visible,.modal-banner.custom-overlay.is-visible {
+    opacity: 1;
+    pointer-events: auto
+}
+
+.custom-modal {
+    transition: transform .3s ease-out;
+    transform: translate(0,-150%);
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 30%);
+    z-index: 99
+}
+
+.custom-modal.is-visible {
+    top: 55%;
+    transform: translate(0,-50%)
+}
+
+.modal-preplan .modal-content .body--content .subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+    padding-top: 10px
+}
+
+.modal-preplan .subtitle b {
+    font-size: 32px;
+    text-shadow: 1px 5px #007ff4
+}
+
+.modal-preplan .modal-content .body--content .title {
+    color: #fff;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 48px;
+    max-width: 299px;
+    margin: auto;
+    text-align: center
+}
+
+.modal-content {
+    text-align: center
+}
+
+.modal-preplan {
+    width: 100%;
+    max-width: 450px;
+    max-height: 254px;
+    border-radius: 30px;
+    height: 100%
+}
+
+.modal-preplan .modal-header {
+    padding: 0
+}
+
+.modal-preplan .modal--title {
+    display: block;
+    width: 100%;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 32px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto 15px
+}
+
+p.modal--description {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.3;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.caja-btn {
+    margin-top: 0;
+    position: absolute;
+    top: 9px;
+    left: 390px
+}
+
+.btn-entendido {
+    width: 33px;
+    height: 31px;
+    background: #fff0;
+    border-radius: 50%;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #019df4!important;
+    margin: 0 auto 40px 0;
+    cursor: pointer
+}
+
+.logo-movistar {
+    padding-bottom: 11%;
+    display: block
+}
+
+.modal-content .section-planeta {
+    text-align: center;
+    margin-top: 32px
+}
+
+.modal-content .Hora-de-planeta {
+    display: flex;
+    gap: 115px;
+    justify-content: center;
+    margin-top: 18px
+}
+
+.box-izquiero-planeta {
+    text-align: left;
+    color: #ffff;
+    font-family: 'League Spartan',sans-serif
+}
+
+.box-izquiero-planeta .texto-marzo {
+    margin: 0 auto;
+    color: #93af8d;
+    font-size: 17.6426px;
+    line-height: 19px
+}
+
+.box-izquiero-planeta .apaga-la-luz {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0 auto
+}
+
+.box-izquiero-planeta .texto-2-planeta {
+    font-size: 12.6426px;
+    line-height: 19px;
+    font-weight: 700
+}
+
+@media (min-width: 768px) {
+    .modal-preplan .modal-header .modal-close {
+        font-size:30px;
+        width: 45px;
+        height: 35px
+    }
+
+    .modal-preplan .modal-content {
+        position: relative;
+        border: none;
+        background: #fff0
+    }
+
+    .modal-preplan .modal-content .body--content {
+        position: relative;
+        top: 10px;
+        padding-left: 4%;
+        padding-right: 4%
+    }
+
+    .modal-preplan .modal--title {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 10px;
+        position: relative;
+        top: -4px
+    }
+}
+
+@media (max-width: 600px) {
+    .modal-preplan .modal--title {
+        width:94%;
+        font-size: 24px
+    }
+
+    .modal-preplan .modal-content .body--content .title {
+        font-size: 32px;
+        line-height: 40px;
+        max-width: 226px
+    }
+
+    .modal-preplan .modal-content .body--content {
+        position: relative;
+        top: 0
+    }
+
+    .modal-preplan .modal-content .body--content .subtitle {
+        font-size: 16px
+    }
+
+    .modal .modal-content {
+        padding: 0;
+        border: none;
+        background: #fff0;
+        top: 0;
+        left: 0;
+        border-radius: 30px
+    }
+
+    .modal-preplan .subtitle {
+        padding-top: 10px;
+        font-size: 16px
+    }
+
+    .modal-preplan {
+        max-height: 270px;
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 30px
+    }
+
+    .modal-preplan .subtitle b {
+        font-size: 20px
+    }
+
+    .caja-btn {
+        padding-left: 27%;
+        bottom: 430px;
+        left: 185px
+    }
+
+    .modal-content .Hora-de-planeta {
+        gap: 58px;
+        margin-top: 12px
+    }
+
+    .box-izquiero-planeta .apaga-la-luz {
+        width: 155px
+    }
+
+    .logo-planeta .planeta-2 {
+        width: 40px
+    }
+
+    .section-form-modal__texto--uno {
+        font-size: 30px;
+        line-height: 32px
+    }
+
+    .section-form-modal__img--fondo {
+        height: 100%
+    }
+}
+
+.modal-cerrar-no-time-important {
+    display: none!important
+}
+
+
+/* Version */
